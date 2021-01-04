@@ -12,7 +12,7 @@
         android:id="@+id/tab2"
         app:showAsAction="ifRoom"
         android:icon="@drawable/write_48"
-        android:title="목록" />
+        android:title="작성" />
     <item
         android:id="@+id/tab3"
         app:showAsAction="ifRoom"
