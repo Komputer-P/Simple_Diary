@@ -23,7 +23,7 @@
             app:strokeRadius="5dp"
             app:strokeWidth="1dp"
             app:selectedTab="0"
-            app:selectedColor="#eb7b00"
+            app:selectedColor="@color/middle_blue"
             app:switchTabs="@array/switch_tabs"
             app:textSize="14sp" />
 
@@ -34,7 +34,7 @@
             android:layout_margin="5dp"
             android:layout_alignParentRight="true"
             android:background="@drawable/select_button"
-            android:text="오늘 작성"
+            android:text="@string/write_today"
             android:textColor="@android:color/white"/>
     </RelativeLayout>
 

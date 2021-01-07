@@ -35,7 +35,7 @@
                     android:layout_height="wrap_content"
                     android:textSize="24sp"
                     android:textStyle="bold"
-                    android:text="기분별 비율" />
+                    android:text="@string/graph1_title" />
 
                 <com.github.mikephil.charting.charts.PieChart
                     android:id="@+id/chart1"
@@ -69,7 +69,7 @@
                     android:layout_height="wrap_content"
                     android:textSize="24sp"
                     android:textStyle="bold"
-                    android:text="요일별 비율" />
+                    android:text="@string/graph2_title" />
 
                 <com.github.mikephil.charting.charts.BarChart
                     android:id="@+id/chart2"
@@ -103,7 +103,7 @@
                     android:layout_height="wrap_content"
                     android:textSize="24sp"
                     android:textStyle="bold"
-                    android:text="기분 변화" />
+                    android:text="@string/graph3_title" />
 
                 <com.github.mikephil.charting.charts.LineChart
                     android:id="@+id/chart3"

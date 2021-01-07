@@ -27,7 +27,7 @@
             android:layout_height="wrap_content"
             android:layout_centerInParent="true"
             android:textSize="26sp"
-            android:text="00월 00일" />
+            android:text="@string/today_date_string" />
 
         <TextView
             android:id="@+id/locationTextView"
@@ -36,7 +36,7 @@
             android:layout_alignParentRight="true"
             android:layout_centerVertical="true"
             android:textSize="13sp"
-            android:text="강남구 삼성동" />
+            android:text="@string/address_string" />
     </RelativeLayout>
 
     <RelativeLayout
@@ -69,7 +69,7 @@
                     android:layout_height="wrap_content"
                     android:maxLines="1"
                     android:textSize="32sp"
-                    android:hint="내용 입력"/>
+                    android:hint="@string/input_contents_hint"/>
 
                 <ImageView
                     android:id="@+id/pictureImageView"
@@ -104,7 +104,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="40dp"
                 android:layout_marginTop="20dp"
-                app:filledColor="#FF6600"
+                app:filledColor="@color/start_blue"
                 app:emptyColor="#a8aeb8"
                 app:rangeCount="5"
                 app:sliderRadiusPercent="0.4"
@@ -162,9 +162,9 @@
             android:layout_alignParentLeft="true"
             android:layout_marginLeft="20dp"
             android:background="@drawable/select_button"
-            android:text="저장"
+            android:text="@string/save_button"
             android:textColor="@android:color/white"
-            app:backgroundTint="#FF5722" />
+            app:backgroundTint="@color/start_blue" />
 
         <Button
             android:id="@+id/deleteButton"
@@ -172,9 +172,9 @@
             android:layout_height="wrap_content"
             android:layout_centerInParent="true"
             android:background="@drawable/select_button"
-            android:text="삭제"
+            android:text="@string/delete_button"
             android:textColor="@android:color/white"
-            app:backgroundTint="#FF5722" />
+            app:backgroundTint="@color/start_blue" />
 
         <Button
             android:id="@+id/closeButton"
@@ -183,8 +183,8 @@
             android:layout_alignParentRight="true"
             android:layout_marginRight="20dp"
             android:background="@drawable/select_button"
-            android:text="닫기"
+            android:text="@string/close_button"
             android:textColor="@android:color/white"
-            app:backgroundTint="#FF5722" />
+            app:backgroundTint="@color/start_blue" />
     </RelativeLayout>
 </RelativeLayout>

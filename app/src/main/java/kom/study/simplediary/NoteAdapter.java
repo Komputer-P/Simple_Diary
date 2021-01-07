@@ -17,7 +17,7 @@ public class NoteAdapter extends RecyclerView.Adapter<NoteAdapter.ViewHolder> im
 
     OnNoteItemClickListener listener;
 
-    int layoutType = 0;
+    static int layoutType = 0;
 
     @NonNull
     @Override

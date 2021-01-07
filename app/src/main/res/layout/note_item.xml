@@ -75,7 +75,7 @@
                     android:layout_alignParentRight="true"
                     android:layout_centerVertical="true"
                     android:text="02월10일"
-                    android:textColor="#FF0000FF"
+                    android:textColor="@color/start_blue"
                     android:textSize="16sp"/>
             </RelativeLayout>
         </LinearLayout>
