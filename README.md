@@ -1,2 +1,2 @@
 # Simple_Diary
-Simple Diary App for Studying Android Programming
+Simple Diary App for Android Programming Study
